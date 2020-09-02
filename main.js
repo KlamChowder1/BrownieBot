@@ -90,7 +90,7 @@ client.on("message", (message) => {
         }
         if (db.get("brownie" + message.author.id) <= 0) {
           message.channel.send(
-            "You have insufficient brownies. Type '!get brownie' go get more!"
+            "You have insufficient brownies. Type '!get brownie' to get more!"
           );
           break;
         } else {
@@ -123,7 +123,7 @@ client.on("message", (message) => {
         }
         if (db.get("cookie" + message.author.id) <= 0) {
           message.channel.send(
-            "You have insufficient cookies. Type '!get cookie' go get more!"
+            "You have insufficient cookies. Type '!get cookie' to get more!"
           );
           break;
         } else {
