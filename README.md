@@ -1,0 +1,3 @@
+# BrownieBot
+
+Discord bot for Rickster Server, made for Darwin and Curtis because they kept asking me to bake them cookies and brownies...
